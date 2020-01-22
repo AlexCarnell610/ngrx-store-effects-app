@@ -1,0 +1,23 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "project": {
+      "version": "1.0.0",
+      "name": "ngrx"
+    },
+    "apps": [
+      {
+        "root": "/",
+        "outDir": "dist",
+        "assets": [
+          "assets"
+        ],
+        "index": "index.html",
+        "main": "src/main.ts",
+        "polyfills": "src/polyfills.ts",
+
+        "prefix": "app",
+        "scripts": [],
+        "environmentSource": "environments/environment.ts"
+      }
+    ]
+  }
